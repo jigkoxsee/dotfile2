@@ -7,7 +7,7 @@ echo $PWD
 git add --all
 git commit -m "$(date)"
 if git push -u origin master ; then
-	  notify-send --icon=gtk-info Test "Dev-end push Success"
+	  notify-send --icon=gtk-info DevEnv "Push Success"
 else
-	  notify-send --icon=gtk-info Test "Dev-end push FAIL!"
+    notify-send --icon=gtk-dialog-warning DevEnv "Push FAIL"
 fi
