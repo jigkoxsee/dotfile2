@@ -35,6 +35,7 @@ values."
      ;; spell-checking
      syntax-checking
      ;; version-control
+     javascript
      go
      python
      (python :variables python-enable-yapf-format-on-save t)
