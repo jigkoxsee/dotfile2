@@ -6,4 +6,8 @@ cd $(dirname $(readlink -f $0))
 echo $PWD
 git add --all
 git commit -m "$(date)"
-git push -u origin master
+if git push -u origin master ; then
+	  notify-send --icon=gtk-info Test "Dev-end push Success"
+else
+	  notify-send --icon=gtk-info Test "Dev-end push FAIL!"
+fi
