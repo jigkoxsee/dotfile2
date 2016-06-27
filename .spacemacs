@@ -42,6 +42,11 @@ values."
      php
      gtags
      django
+     ;; ...
+     (wakatime :variables
+               wakatime-api-key  "cf8b1777-d4af-443c-8ba3-5653d1caeda9"
+               ;; use the actual wakatime path
+               wakatime-cli-path "/usr/local/bin/wakatime")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
