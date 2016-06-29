@@ -47,7 +47,9 @@ values."
      (wakatime :variables
                wakatime-api-key  "cf8b1777-d4af-443c-8ba3-5653d1caeda9"
                wakatime-cli-path "/usr/local/bin/wakatime")
+     ansible
      )
+
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
