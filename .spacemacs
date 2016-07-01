@@ -36,7 +36,7 @@ values."
      syntax-checking
      ;; version-control
      react
-     javascript
+     ;; javascript
      go
      python
      (python :variables python-enable-yapf-format-on-save t)
