@@ -39,7 +39,7 @@ values."
      ;; javascript
      go
      python
-     (python :variables python-enable-yapf-format-on-save t)
+     ;; (python :variables python-enable-yapf-format-on-save t)
      php
      gtags
      django
